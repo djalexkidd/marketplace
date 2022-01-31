@@ -10,6 +10,7 @@
     src : url('KumbhSans.ttf') format('truetype');
 }
 
+/* Application de la police */
 body {
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -41,20 +42,23 @@ li a {
     margin-left: 20px;
 }
 
+/* Éléments à droite de la barre de navigations */
 .topnav-right {
     float: right;
     padding-right: 10%;
 }
 
+/* Photo de profil */
 .profile-nav{
     height: 60px;
 }
 
+/* Panier */
 .cart-nav {
     height: 40px;
 }
 
-
+/* Liens de navigation */
 .lien{
     margin-left: 200px;
 }
@@ -71,6 +75,7 @@ li a:hover{
     margin-left:10%;
 }
 
+/* Ligne de séparation */
 .transition{
     height: 1px;
     width: 80%;
@@ -80,6 +85,7 @@ li a:hover{
     margin-top: -12px;
 }
 
+/* Bouton ajouter au panier */
 .add-item {
     border: 0px solid;
     background-color: hsl(26, 100%, 55%);
@@ -98,15 +104,18 @@ li a:hover{
     transition: box-shadow 0.25s, color 0.25s, background-color 0.25s, color 0.25s;
 }
 
+/* Container pour la fiche produit */
 .item-container {
     display: flex;
 }
 
+/* Marque du fabricant (texte en orange)
 .item-brand {
     color: hsl(26, 100%, 55%);
     font-size: 80%;
 }
 
+/* Image du produit */
 .produit{
     margin-top: 5%;
     margin-left: 10%;
@@ -118,6 +127,7 @@ li a:hover{
     border-radius: 5%
 }
 
+/* Informations tel que le nom, le fabricant, le prix... */
 .item-info {
     float: right;
     margin-top: 10%;
