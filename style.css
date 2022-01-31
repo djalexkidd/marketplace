@@ -1,0 +1,84 @@
+/* Aucune bordure */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+/* Importation de la police */
+@font-face {
+    font-family: 'Kumbh Sans';
+    src : url('KumbhSans.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Barre de navigation */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+/* Boutons de navigation à droite */
+li {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+/* Boutons de navigation */
+li a {
+    display: block;
+    color: hsl(219, 9%, 45%);
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right : 5%;
+}
+
+li img {
+    height: auto;
+    width: auto;
+}
+
+li a:hover{
+    color: hsl(220, 13%, 13%);
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    text-decoration-color: hsl(26, 100%, 55%);
+    text-decoration-thickness: 5px;
+}
+
+.nav{
+    margin-left:10%;
+}
+
+.transition{
+    height: 1px;
+    width: 80%;
+    transform:translateX(-50%);
+    margin-left: 50%;
+    background-color: hsl(220, 13%, 13%);
+    margin-top: -12px;
+}
+
+.add-item {
+    border: 0px solid;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px hsl(26, 100%, 55%);
+    transition: box-shadow 0.25s, color 0.25s, background-color 0.25s, color 0.25s;
+}
+
+.add-item:hover {
+    background-color:hsl(26, 100%, 70%);
+    box-shadow: 1px 1px 18px hsl(26, 100%, 55%);
+    transition: box-shadow 0.25s, color 0.25s, background-color 0.25s, color 0.25s;
+}
