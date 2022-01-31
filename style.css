@@ -54,6 +54,7 @@ li a {
     height: 40px;
 }
 
+
 .lien{
     margin-left: 200px;
 }
@@ -98,11 +99,7 @@ li a:hover{
 }
 
 .item-container {
-    display: grid;
-    float: right;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin-right: 20%;
+    display: flex;
 }
 
 .item-brand {
@@ -111,14 +108,17 @@ li a:hover{
 }
 
 .produit{
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    margin-top : 5%;
-    margin-left : 10%
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left;
 }
 
 .produit img{
     height: 40%;
-    width: 40%;
-    border-radius : 5%
+    border-radius: 5%
+}
+
+.item-info {
+    float: right;
+    margin-top: 10%;
 }
