@@ -37,11 +37,25 @@ li a {
     text-decoration: none;
     font-size: 20px;
     padding-right : 5%;
+    font-size: 16px;
+    margin-left: 20px;
 }
 
-li img {
-    height: auto;
-    width: auto;
+.topnav-right {
+    float: right;
+    padding-right: 10%;
+}
+
+.profile-nav{
+    height: 60px;
+}
+
+.cart-nav {
+    height: 40px;
+}
+
+.lien{
+    margin-left: 200px;
 }
 
 li a:hover{
@@ -81,4 +95,30 @@ li a:hover{
     background-color:hsl(26, 100%, 70%);
     box-shadow: 1px 1px 18px hsl(26, 100%, 55%);
     transition: box-shadow 0.25s, color 0.25s, background-color 0.25s, color 0.25s;
+}
+
+.item-container {
+    display: grid;
+    float: right;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: 20%;
+}
+
+.item-brand {
+    color: hsl(26, 100%, 55%);
+    font-size: 80%;
+}
+
+.produit{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-top : 5%;
+    margin-left : 10%
+}
+
+.produit img{
+    height: 40%;
+    width: 40%;
+    border-radius : 5%
 }

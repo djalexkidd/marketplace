@@ -8,32 +8,38 @@
     <title>E-commerce product page</title>
 </head>
     <div class="nav">
-        <ul>
+        <ul> 
             <li><img src="images/logo.svg"></li>
-            <li><a href="#">Collections</a></li>
-            <li><a href="#">Men</a></li>
-            <li><a href="#">Women</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><img src="images/icon-cart.svg" alt=""></li>
-            <li><img src="images/image-avatar.png" alt=""></li>
+            <div class="lien">
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+            <div class="topnav-right">
+                <li><img class="cart-nav" src="images/icon-cart.svg" alt=""></li>
+                <li><img class="profile-nav" src="images/image-avatar.png" alt=""></li>
+            </div>
         </ul>
     </div>
         <div class="transition"></div>
 
+        <div class="produit"><img src="images/image-product-1.jpg" alt=""></div>
 
-  Sneaker Company
+    <div class="item-container">
+        <h2 class="item-brand">SNEAKER COMPANY</h2>
+        <h1 class="item-name">Fall Limited Edition Sneakers</h1>
 
-  Fall Limited Edition Sneakers
-
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
+    
+        <p class="item-description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
 
   $125.00
   50%
   $250.00
 
-  <input type="number" value="1">
+    </div>
+  <input type="number" value="1" min="1">
   
   <button class="add-item">Add to cart</button>
 </body>
