@@ -29,5 +29,5 @@ function check() {
 }
 
 function showCart() {
-    cartCheckout.style.display = "block";
+    cartCheckout.classList.toggle('hidden');
 }
