@@ -229,10 +229,10 @@ li a:hover{
 
 .cart {
     position: absolute;
-    right: 1rem;
-    top: 5rem;
-    width: 25rem;
-    height: 10rem;
+    right: 10rem;
+    top: 4.5rem;
+    width: 22rem;
+    height: 16rem;
     z-index: 1;
     background-color: white;
     border-radius: 1rem;
@@ -243,10 +243,10 @@ li a:hover{
 .cart .msg-empty {
     color: #68707d;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 700;
     padding: 7.8rem 0;
-    margin-top : -5.5rem;
+    margin-top : -2.5rem;
   }
   
 .cart .checkout {

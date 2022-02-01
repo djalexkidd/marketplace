@@ -5,5 +5,5 @@ Voici une fiche produit pour des chaussures.
 ## Contributeurs
 
 - Alexandre Poyer
-- Pierre Lem
+- Pierre Lemonnier
 - Titouan Le Lez
