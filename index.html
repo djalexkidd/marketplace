@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
     <title>E-commerce product page</title>
 </head>
@@ -22,21 +23,29 @@
                 <li><img class="profile-nav" src="images/image-avatar.png" alt=""></li>
             </div>
         </ul>
+
+        <div class="cart hidden">
+            <div class="cart-header">Cart</div>
+            <div class="products-in-cart">
+            </div>
+            <div class="msg-empty">Your cart is empty.</div>
+            <div class="checkout hidden">Checkout</div>
+        </div>
     </div>
     <div class="transition"></div>
 
     <div class="item-container">
         <div class="produit"><img src="images/image-product-1.jpg" alt=""></div>
         <div class="item-info">
-            <h2 class="item-brand">SNEAKER COMPANY</h2>
-            <h1 class="item-name">Fall Limited Edition Sneakers</h1>
+            <h2 class="item-brand">SNEAKER COMPANY</h2><br>
+            <h1 class="item-name">Fall Limited Edition Sneakers</h1><br>
 
     
-            <p class="item-description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            <p class="item-description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p><br>
 
             <h2 class="item-price">$125.00</h2>
             <p class="item-price-sale">50%</p>
-            $250.00
+            <p class="item-actual-price"><s>$250.00</s><p>
             <div class="count-btn-group">
                 <div class="counter-wrapper">
                     <img id="btnMinus" src="./images/icon-minus.svg" alt="icon minus">
@@ -44,7 +53,7 @@
                     <img id="btnPlus" src="./images/icon-plus.svg" alt="icon plus">
                 </div>
             
-            <button class="add-item">Add to cart</button>
+            <button class="add-item"><img src="images/icon-cart2.svg" alt=""> Add to cart</button>
         </div>
     </div>
         

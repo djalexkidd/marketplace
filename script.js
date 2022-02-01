@@ -2,9 +2,12 @@ let quantity = 1
 let counter = document.querySelector(".counter");
 let btnPlus = document.getElementById("btnPlus");
 let btnMinus = document.getElementById("btnMinus");
+let cart = document.querySelector(".cart-nav");
+let cartCheckout = document.querySelector(".cart");
 
 btnPlus.addEventListener('click', plusOne);
 btnMinus.addEventListener('click', removeOne);
+cart.addEventListener('click', showCart);
 
 function plusOne() {
     quantity += 1;
@@ -23,4 +26,8 @@ function check() {
     else {
         counter.innerHTML = quantity;
     }
+}
+
+function showCart() {
+    cartCheckout.style.display = "block";
 }
