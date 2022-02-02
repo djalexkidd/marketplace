@@ -1,6 +1,6 @@
-# Page e-commerce
+# Marketplace
 
-Voici une fiche produit pour des chaussures.
+Voici une fiche produit pour un site e-commerce.
 
 ## Contributeurs
 
