@@ -240,7 +240,7 @@ li a:hover{
             box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.1), 0 1rem 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.cart-nav:hover {
+.btnCart:hover {
     cursor: pointer;
 }
 
@@ -264,7 +264,6 @@ li a:hover{
     border-radius: 1rem;
     cursor: pointer;
     display: absolute;
-    margin-top: -30px;
 }
 
 .cart-header{
@@ -297,12 +296,12 @@ li a:hover{
     width: 5rem;
     border-radius: 0.5rem;
     margin-left: -35px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
   
 .cart .products-in-cart .item .details {
     color: #68707d;
-    font-size: 1.6rem;
+    font-size: 20px;
     line-height: 2.6rem;
     margin-top: -25px;
 }
@@ -360,8 +359,8 @@ li a:hover{
 
 .cart-count {
     position: absolute;
-    top: -25%;
-    right: -25%;
+    top: 1rem;
+    right: 17em;
     background-color: #ff7d1a;
     color: white;
     font-size: 1rem;
