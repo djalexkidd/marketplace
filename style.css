@@ -259,33 +259,28 @@ li a:hover{
     text-align: center;
     font-size: 1.6rem;
     font-weight: 700;
-    margin: 2.4rem;
-    padding: 1.8rem;
+    margin: 1.4rem;
+    padding: 0.8rem;
     border-radius: 1rem;
     cursor: pointer;
     display: absolute;
+    margin-top: -30px;
 }
 
-  header .cart .cart-header {
-    border-bottom: 1px solid #b6bcc8;
-    padding: 2.4rem 2rem;
-    font-size: 1.6rem;
+.cart-header{
+    font-size : 18px;
     font-weight: 700;
+    margin: 15px;
 }
 
-  .cart-header{
-      font-size : 18px;
-      font-weight: 700;
-      margin: 15px;
-}
-
-  .transicart {
-      height: 1px;
-      width : 100%;
-      background-color: #68707d;
+.transicart {
+    position: absolute;
+    height: 1px;
+    width : 100%;
+    background-color: #68707d;
 }
   
-  header .cart .products-in-cart .item {
+.cart .products-in-cart .item {
     margin: 2.4rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -301,12 +296,15 @@ li a:hover{
 .cart .products-in-cart .item .product-img {
     width: 5rem;
     border-radius: 0.5rem;
+    margin-left: -35px;
+    margin-top: -30px;
 }
   
 .cart .products-in-cart .item .details {
     color: #68707d;
     font-size: 1.6rem;
     line-height: 2.6rem;
+    margin-top: -25px;
 }
   
 .cart .products-in-cart .item .details .price-group {

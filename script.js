@@ -50,7 +50,7 @@ function addToCart() {
     <div class="item">
         <img class="product-img" src="./images/image-product-1-thumbnail.jpg" alt="product 1 thumb">
         <div class="details">
-            <div class="product-name">Autumn Limited Edition...</div>
+            <div class="product-name">Fall Limited Edition...</div>
             <div class="price-group">
                 <div class="price">$${(price*discount).toFixed(2)}</div> x
                 <div class="count">${productsInCart}</div>
