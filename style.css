@@ -159,7 +159,7 @@ li a:hover{
     grid-template-columns: repeat(auto-fill, auto);
 }
 
-.produit img{
+.current{
     height: 60%;
     border-radius: 5%;
     width: 70vh;
@@ -368,4 +368,15 @@ li a:hover{
     line-height: 100%;
     padding: 0.1rem 0.6rem;
     border-radius: 1rem;
+}
+
+.carrousel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 48px;
+}
+
+.carrousel img {
+    border-radius: 10px;
+    width: 128px;
 }
